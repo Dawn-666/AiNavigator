@@ -14,6 +14,7 @@ object FaviconLoader {
             Log.e(TAG, "Invalid URL: $url", e)
             return ""
         }
+        // return "https://favicon.yandex.net/favicon/$domain"
         return "https://$domain/favicon.ico"
     }
 }

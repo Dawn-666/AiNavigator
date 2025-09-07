@@ -46,12 +46,15 @@ fun FaviconImage(url: String) {
                     is AsyncImagePainter.State.Loading -> {
                         Log.d("FaviconImage", "Loading favicon: $url")
                     }
+
                     is AsyncImagePainter.State.Success -> {
                         Log.d("FaviconImage", "Loaded favicon: $url")
                     }
+
                     is AsyncImagePainter.State.Error -> {
                         Log.e("FaviconImage", "Error loading favicon: $url", state.result.throwable)
                     }
+
                     else -> {}
                 }
             }
@@ -68,6 +71,7 @@ fun FaviconImage(url: String) {
                     strokeWidth = 2.dp
                 )
             }
+
             is AsyncImagePainter.State.Error -> {
                 Image(
                     painter = painterResource(id = R.drawable.ic_default_favicon),
@@ -76,6 +80,7 @@ fun FaviconImage(url: String) {
                     colorFilter = ColorFilter.tint(MaterialTheme.colorScheme.primary)
                 )
             }
+
             else -> {
                 Image(
                     painter = painter,
