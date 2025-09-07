@@ -76,16 +76,14 @@ object DataProvider {
                     name = "TensorFlow",
                     url = "https://www.tensorflow.org",
                     description = "谷歌机器学习框架",
-                    category = "计算机视觉",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.tensorflow.org")
+                    category = "计算机视觉"
                 ),
                 AIWebsite(
                     id = 202,
                     name = "PyTorch",
                     url = "https://pytorch.org",
                     description = "Meta深度学习框架",
-                    category = "计算机视觉",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://pytorch.org")
+                    category = "计算机视觉"
                 ),
                 // 国内计算机视觉平台
                 AIWebsite(
@@ -93,32 +91,28 @@ object DataProvider {
                     name = "商汤科技",
                     url = "https://www.sensetime.com",
                     description = "领先的人工智能平台公司",
-                    category = "计算机视觉",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.sensetime.com")
+                    category = "计算机视觉"
                 ),
                 AIWebsite(
                     id = 204,
                     name = "旷视科技",
                     url = "https://www.megvii.com",
                     description = "人工智能产品和解决方案提供商",
-                    category = "计算机视觉",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.megvii.com")
+                    category = "计算机视觉"
                 ),
                 AIWebsite(
                     id = 205,
                     name = "依图科技",
                     url = "https://www.yitutech.com",
                     description = "人工智能算法提供商",
-                    category = "计算机视觉",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.yitutech.com")
+                    category = "计算机视觉"
                 ),
                 AIWebsite(
                     id = 206,
                     name = "云从科技",
                     url = "https://www.cloudwalk.com",
                     description = "人机协同操作系统提供商",
-                    category = "计算机视觉",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.cloudwalk.com")
+                    category = "计算机视觉"
                 )
             )
         ),
@@ -131,16 +125,14 @@ object DataProvider {
                     name = "LangChain",
                     url = "https://www.langchain.com",
                     description = "智能体开发框架",
-                    category = "AI智能体开发",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.langchain.com")
+                    category = "AI智能体开发"
                 ),
                 AIWebsite(
                     id = 302,
                     name = "LlamaIndex",
                     url = "https://www.llamaindex.ai",
                     description = "数据框架用于智能体",
-                    category = "AI智能体开发",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.llamaindex.ai")
+                    category = "AI智能体开发"
                 ),
                 // 国内智能体开发平台
                 AIWebsite(
@@ -148,25 +140,22 @@ object DataProvider {
                     name = "面壁智能",
                     url = "https://www.minimax.com",
                     description = "智能体开发平台",
-                    category = "AI智能体开发",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.minimax.com")
+                    category = "AI智能体开发"
                 ),
                 AIWebsite(
                     id = 304,
                     name = "澜舟科技",
                     url = "https://www.langboat.com",
                     description = "自然语言处理平台",
-                    category = "AI智能体开发",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.langboat.com")
-                ),
+                    category = "AI智能体开发"
+                )/*,
                 AIWebsite(
                     id = 305,
                     name = "聆心智能",
                     url = "https://www.lingxintech.com",
                     description = "AI对话系统开发平台",
-                    category = "AI智能体开发",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.lingxintech.com")
-                )
+                    category = "AI智能体开发"
+                )*/
             )
         ),
         // 新增类别：AI绘画与设计
@@ -179,40 +168,35 @@ object DataProvider {
                     name = "文心一格",
                     url = "https://yige.baidu.com",
                     description = "百度AI绘画平台",
-                    category = "AI绘画与设计",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://yige.baidu.com")
+                    category = "AI绘画与设计"
                 ),
                 AIWebsite(
                     id = 402,
                     name = "通义万相",
                     url = "https://wanxiang.aliyun.com",
                     description = "阿里云AI绘画平台",
-                    category = "AI绘画与设计",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://wanxiang.aliyun.com")
+                    category = "AI绘画与设计"
                 ),
                 AIWebsite(
                     id = 403,
                     name = "稿定AI",
                     url = "https://www.gaoding.com/ai",
                     description = "AI设计工具平台",
-                    category = "AI绘画与设计",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.gaoding.com")
+                    category = "AI绘画与设计"
                 ),
                 AIWebsite(
                     id = 404,
                     name = "触手AI",
                     url = "https://www.chushou.tv/ai",
                     description = "AI绘画创作平台",
-                    category = "AI绘画与设计",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.chushou.tv")
+                    category = "AI绘画与设计"
                 ),
                 AIWebsite(
                     id = 405,
                     name = "Nolibox",
                     url = "https://www.nolibox.com",
                     description = "AI设计工具",
-                    category = "AI绘画与设计",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.nolibox.com")
+                    category = "AI绘画与设计"
                 )
             )
         ),
@@ -226,40 +210,35 @@ object DataProvider {
                     name = "讯飞配音",
                     url = "https://peiyin.xunfei.cn",
                     description = "AI语音合成平台",
-                    category = "AI音频与视频",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://peiyin.xunfei.cn")
+                    category = "AI音频与视频"
                 ),
                 AIWebsite(
                     id = 502,
                     name = "腾讯智影",
                     url = "https://zenvideo.qq.com",
                     description = "AI视频创作平台",
-                    category = "AI音频与视频",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://zenvideo.qq.com")
+                    category = "AI音频与视频"
                 ),
                 AIWebsite(
                     id = 503,
                     name = "倒映有声",
                     url = "https://www.daoyingai.com",
                     description = "AI语音合成服务",
-                    category = "AI音频与视频",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.daoyingai.com")
+                    category = "AI音频与视频"
                 ),
                 AIWebsite(
                     id = 504,
                     name = "一帧秒创",
                     url = "https://aigc.yizhentv.com",
                     description = "AI视频创作工具",
-                    category = "AI音频与视频",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://aigc.yizhentv.com")
+                    category = "AI音频与视频"
                 ),
                 AIWebsite(
                     id = 505,
                     name = "魔音工坊",
                     url = "https://www.moyin.com",
                     description = "AI语音合成平台",
-                    category = "AI音频与视频",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.moyin.com")
+                    category = "AI音频与视频"
                 )
             )
         ),
@@ -273,40 +252,35 @@ object DataProvider {
                     name = "百度飞桨",
                     url = "https://www.paddlepaddle.org.cn",
                     description = "国产深度学习框架",
-                    category = "AI开发工具",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.paddlepaddle.org.cn")
+                    category = "AI开发工具"
                 ),
                 AIWebsite(
                     id = 602,
                     name = "华为昇腾",
                     url = "https://www.hiascend.com",
                     description = "AI计算平台",
-                    category = "AI开发工具",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.hiascend.com")
+                    category = "AI开发工具"
                 ),
-                AIWebsite(
-                    id = 603,
-                    name = "阿里云PAI",
-                    url = "https://www.aliyun.com/product/bigdata/pai",
-                    description = "机器学习平台",
-                    category = "AI开发工具",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.aliyun.com")
-                ),
+                // AIWebsite(
+                //     id = 603,
+                //     name = "阿里云PAI",
+                //     url = "https://www.aliyun.com/product/bigdata/pai",
+                //     description = "机器学习平台",
+                //     category = "AI开发工具"
+                // ),
                 AIWebsite(
                     id = 604,
                     name = "腾讯云TI平台",
                     url = "https://cloud.tencent.com/product/tione",
                     description = "机器学习平台",
-                    category = "AI开发工具",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://cloud.tencent.com")
+                    category = "AI开发工具"
                 ),
                 AIWebsite(
                     id = 605,
                     name = "OpenMMLab",
                     url = "https://openmmlab.com",
                     description = "开源计算机视觉算法库",
-                    category = "AI开发工具",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://openmmlab.com")
+                    category = "AI开发工具"
                 )
             )
         ),
@@ -320,41 +294,36 @@ object DataProvider {
                     name = "讯飞开放平台",
                     url = "https://www.xfyun.cn",
                     description = "AI能力开放平台",
-                    category = "AI应用平台",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.xfyun.cn")
+                    category = "AI应用平台"
                 ),
                 AIWebsite(
                     id = 702,
                     name = "百度AI开放平台",
                     url = "https://ai.baidu.com",
                     description = "AI技术开放平台",
-                    category = "AI应用平台",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://ai.baidu.com")
+                    category = "AI应用平台"
                 ),
                 AIWebsite(
                     id = 703,
                     name = "阿里云智能",
                     url = "https://www.aliyun.com/product/ai",
                     description = "云计算AI服务平台",
-                    category = "AI应用平台",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.aliyun.com")
+                    category = "AI应用平台"
                 ),
                 AIWebsite(
                     id = 704,
                     name = "腾讯AI开放平台",
                     url = "https://ai.qq.com",
                     description = "AI技术服务平台",
-                    category = "AI应用平台",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://ai.qq.com")
-                ),
+                    category = "AI应用平台"
+                )/*,
                 AIWebsite(
                     id = 705,
                     name = "京东AI研究院",
                     url = "https://neuhub.jd.com",
                     description = "AI技术研究与应用",
-                    category = "AI应用平台",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://neuhub.jd.com")
-                )
+                    category = "AI应用平台"
+                )*/
             )
         )
     )

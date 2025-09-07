@@ -22,6 +22,7 @@ import coil.compose.AsyncImagePainter
 import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
 import coil.size.Size
+import java.net.URL
 
 @Composable
 fun FaviconImage(url: String) {
@@ -73,22 +74,37 @@ fun FaviconImage(url: String) {
             }
 
             is AsyncImagePainter.State.Error -> {
-                Image(
-                    painter = painterResource(id = R.drawable.ic_default_favicon),
-                    contentDescription = "默认图标",
-                    modifier = Modifier.size(24.dp),
-                    colorFilter = ColorFilter.tint(MaterialTheme.colorScheme.primary)
-                )
+                if (url == FaviconLoader.getFaviconUrl(url)) {
+                    FaviconImage(
+                        url = "https://favicon.yandex.net/favicon/${URL(url).host}"
+                    )
+                } else {
+                    DefaultFavicon()
+                }
             }
 
             else -> {
-                Image(
-                    painter = painter,
-                    contentDescription = "网站图标",
-                    modifier = Modifier.size(32.dp),
-                    contentScale = ContentScale.Crop
-                )
+                if (painter.intrinsicSize.height > 1) {
+                    Image(
+                        painter = painter,
+                        contentDescription = "网站图标",
+                        modifier = Modifier.size(32.dp),
+                        contentScale = ContentScale.Crop
+                    )
+                } else {
+                    DefaultFavicon()
+                }
             }
         }
     }
+}
+
+@Composable
+private fun DefaultFavicon() {
+    Image(
+        painter = painterResource(id = R.drawable.ic_default_favicon),
+        contentDescription = "默认图标",
+        modifier = Modifier.size(24.dp),
+        colorFilter = ColorFilter.tint(MaterialTheme.colorScheme.primary)
+    )
 }
