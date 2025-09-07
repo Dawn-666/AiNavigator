@@ -14,6 +14,6 @@ data class AIWebsite(
     val url: String,
     val description: String,
     val category: String,
-    val faviconUrl: String, // 网站图标URL
+    val faviconUrl: String = FaviconLoader.getFaviconUrl(url), // 网站图标URL
     val isFavorite: Boolean = false
 )

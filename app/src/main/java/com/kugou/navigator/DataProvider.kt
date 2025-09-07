@@ -11,24 +11,21 @@ object DataProvider {
                     name = "OpenAI",
                     url = "https://openai.com",
                     description = "GPT系列模型开发商",
-                    category = "大语言模型",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://openai.com")
+                    category = "大语言模型"
                 ),
-                AIWebsite(
-                    id = 102,
-                    name = "Hugging Face",
-                    url = "https://huggingface.co",
-                    description = "开源AI模型社区",
-                    category = "大语言模型",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://huggingface.co")
-                ),
+                // AIWebsite(
+                //     id = 102,
+                //     name = "Hugging Face",
+                //     url = "https://huggingface.co",
+                //     description = "开源AI模型社区",
+                //     category = "大语言模型"
+                // ),
                 AIWebsite(
                     id = 103,
                     name = "Anthropic",
                     url = "https://www.anthropic.com",
                     description = "Claude AI助手",
-                    category = "大语言模型",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://www.anthropic.com")
+                    category = "大语言模型"
                 ),
                 // 国内大语言模型
                 AIWebsite(
@@ -37,39 +34,36 @@ object DataProvider {
                     url = "https://yiyan.baidu.com",
                     description = "百度推出的大语言模型",
                     category = "大语言模型",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://yiyan.baidu.com")
+                    faviconUrl = "https://eb-static.cdn.bcebos.com/logo/favicon.ico"
                 ),
                 AIWebsite(
                     id = 105,
                     name = "通义千问",
-                    url = "https://qianwen.aliyun.com",
+                    url = "https://www.tongyi.com",
                     description = "阿里云推出的大语言模型",
                     category = "大语言模型",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://qianwen.aliyun.com")
+                    faviconUrl = "https://img.alicdn.com/imgextra/i4/O1CN01EfJVFQ1uZPd7W4W6i_!!6000000006051-2-tps-112-112.png"
                 ),
                 AIWebsite(
                     id = 106,
                     name = "讯飞星火",
                     url = "https://xinghuo.xfyun.cn",
                     description = "科大讯飞推出的大语言模型",
-                    category = "大语言模型",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://xinghuo.xfyun.cn")
+                    category = "大语言模型"
                 ),
                 AIWebsite(
                     id = 107,
                     name = "智谱清言",
                     url = "https://chatglm.cn",
                     description = "清华大学推出的大语言模型",
-                    category = "大语言模型",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://chatglm.cn")
+                    category = "大语言模型"
                 ),
                 AIWebsite(
                     id = 108,
                     name = "月之暗面",
                     url = "https://kimi.moonshot.cn",
                     description = "月之暗面推出的大语言模型",
-                    category = "大语言模型",
-                    faviconUrl = FaviconLoader.getFaviconUrl("https://kimi.moonshot.cn")
+                    category = "大语言模型"
                 )
             )
         ),
