@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"> <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"> <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpack-compose&logoColor=white" alt="Jetpack Compose"> <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge" alt="License"> </p> <p align="center"> <b>一款专为AI开发者设计的智能导航应用，快速访问各类AI工具和平台</b> </p>
+<p style="text-align: center;"> <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"> <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"> <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpack-compose&logoColor=white" alt="Jetpack Compose"> <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge" alt="License"> </p> <p style="text-align: center;"> <b>一款专为AI开发者设计的智能导航应用，快速访问各类AI工具和平台</b> </p>
 
 ## 📖 简介
 
@@ -203,4 +203,4 @@ object FaviconLoader {
 
 ------
 
-<p align="center"> <b>如果这个项目对您有帮助，请给个⭐️支持一下！</b> </p>
+<p style="text-align: center;"> <b>如果这个项目对您有帮助，请给个⭐️支持一下！</b> </p>
